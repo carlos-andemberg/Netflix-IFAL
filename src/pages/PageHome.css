@@ -1,0 +1,15 @@
+.page-home{
+    width: 100vw;
+    min-height: 100vh;
+    color: white;
+}
+.page-home>.home-carrossel{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+.page-home>.home-top{
+    margin-left: 35px;
+    margin-right: 50px;
+}

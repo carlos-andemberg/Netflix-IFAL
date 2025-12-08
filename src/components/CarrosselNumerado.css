@@ -1,0 +1,49 @@
+.carrossel-numerado {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.carrossel-numerado>.carrossel-table {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
+
+.carrossel-numerado>.carrossel-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.carrossel-numerado>.carrossel-table>.union>.carrossel-img {
+    border-radius: 4px;
+    width: 50%;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+    transition: 0.2s;
+}
+
+.carrossel-numerado>.carrossel-table>.union {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    max-width: 220px;
+    max-height: 135px;
+    position: relative;
+}
+
+.carrossel-numerado>.carrossel-table>.union>.number {
+    font-size: 180px;
+    font-weight: 900;
+    line-height: 0.7;
+    -webkit-text-stroke: 4px #444;
+    margin-right: -31px;
+    color: black;
+    position: relative;
+    z-index: 1;
+}
+
+.carrossel-numerado>.carrossel-table>.union>.carrossel-img:hover {
+    transform: scale(1.03);
+}

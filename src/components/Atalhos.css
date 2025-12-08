@@ -1,0 +1,21 @@
+.atalhos {
+    display: flex;
+    flex-direction: column;
+    padding: 0 25px;
+}
+
+.atalhos>.titulo-atalhos {
+    font-size: 16px;
+    color: rgb(95, 91, 91);
+    font-weight: 200;
+    padding: 7px 0 20px;
+}
+
+.atalhos>.atalhos-box {
+    border-radius: 8px;
+    padding-top: 20px;
+    width: 88%;
+    border: solid rgb(223, 215, 215) 1px;
+    background-color: white;
+    color: black;
+}

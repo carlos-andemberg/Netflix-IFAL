@@ -1,0 +1,37 @@
+.page-conta {
+    /*border: solid 2px red;*/
+
+    margin: 0;
+
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #f3f1f1;
+
+}
+
+.page-conta>.cabecalho {
+    /*border: solid 2px rgb(0, 17, 255);*/
+    min-height: 64px;
+    border-bottom: solid rgb(223, 215, 215) 1px;
+
+}
+
+.page-conta>.principal {
+    /*border: solid 2px aqua;*/
+
+    height: fit-content;
+    /* a altura se ajusta com os filhos do div*/
+
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.page-conta>.principal>.esquerda {
+    margin-left: 80px;
+    min-width: 25vw;
+}
+
+.page-conta>.principal>.conteudo {
+    width: 75vw;
+}

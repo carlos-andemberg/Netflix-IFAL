@@ -1,0 +1,26 @@
+.carrossel-simples {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.carrossel-simples>.carrossel-table {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+}
+
+.carrossel-simples>.carrossel-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.carrossel-simples>.carrossel-table>.carrossel-img {
+    border-radius: 4px;
+    width: 220px;
+    transition: 0.2s;
+}
+
+.carrossel-simples>.carrossel-table>.carrossel-img:hover {
+    transform: scale(1.03);
+}

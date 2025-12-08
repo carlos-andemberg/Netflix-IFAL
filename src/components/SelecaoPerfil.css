@@ -1,0 +1,27 @@
+.selecao-perfil {
+    /* border: solid 2px red; */
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+
+}
+
+.selecao-perfil>.titulo >.icone {
+    color: red;
+}
+
+.selecao-perfil>.titulo {
+    color: white;
+    font-size: 60px;
+}
+
+.selecao-perfil>.container-perfis {
+    /* border: 2px solid orange; */
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+
+    padding-bottom: 54px;
+}

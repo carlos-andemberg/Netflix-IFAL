@@ -1,0 +1,12 @@
+.page-selecionar-perfil {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    min-height: 100vh;
+
+    background: #000000;
+    background: linear-gradient(83deg, rgba(0, 0, 0, 1) 0%, rgba(26, 25, 25, 1) 52%, rgba(0, 0, 0, 1) 100%);
+
+}

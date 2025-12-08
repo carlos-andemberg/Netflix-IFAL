@@ -1,0 +1,39 @@
+.main-barra-superior {
+    /* border: solid 1px black; */
+    background-color: white;
+    color: #0000008a;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.main-barra-superior>.link>.netflix {
+    display: flex;
+    width: 100px;
+}
+
+
+.main-barra-superior>.link>.netflix>.netflix-logo {
+    width: 300px;
+    height: 80px;
+}
+
+.main-barra-superior>.perfil {
+
+    /* border-radius: 20px; */
+    /* border: solid 1px #000; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.main-barra-superior>.perfil>.user-netflix {
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+}

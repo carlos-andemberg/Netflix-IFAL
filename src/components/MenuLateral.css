@@ -1,0 +1,58 @@
+.menu-item {
+    height: max-content;
+    width: max-content;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    /*border: solid red 1px;*/
+
+}
+
+.menu-item>.item-superior>.item-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    padding: 12px 24px 32px 24px;
+    /*border: solid 1px green;*/
+}
+
+.menu-item>.item-inferior {
+    /*border: solid 1px yellow;*/
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.menu-item>.item-inferior>.item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 24px 12px 24px;
+    gap: 15px;
+    /*border: solid red 1px;*/
+}
+
+.menu-item>.item-inferior>.item>.item-select {
+    font-weight: 700;
+    color: black;
+}
+
+.menu-item>.item-inferior>.item>.item-noselect,
+.menu-item>.item-inferior>.item>.item-icons.noselect {
+    color: #555;
+}
+
+.menu-item>.item-inferior>.item>.item-icons,
+.menu-item>.item-superior>.item-top>.item-icons {
+    width: 24px;
+    height: 24px;
+}
+
+.menu-item>.item-superior>.item-top>.item-icons.top,
+.menu-item>.item-superior>.item-top>.item-top-text,
+.menu-item>.item-inferior>.item>.item-icons.select {
+    color: black;
+}

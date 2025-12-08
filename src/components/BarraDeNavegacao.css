@@ -1,0 +1,37 @@
+.barra-pai>.barra-links>.logo-barra {
+    width: 150px;
+}
+
+.barra-pai {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.barra-pai>.barra-links {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    color: aliceblue;
+}
+
+.barra-pai>.link-conta>.barra-perfil {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    padding: 15px;
+}
+
+.barra-pai>.link-conta {
+    text-decoration: none;
+    color: aliceblue
+}
+
+.barra-pai>.link-conta>.user-navbar {
+    color: aliceblue;
+}
