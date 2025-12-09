@@ -11,7 +11,7 @@
 ## 🖼️ Preview
 
 <div align="center">
-  <img src="[https://drive.google.com/file/d/1jkXgeOVlX5MghkZlAZ8JZ3zHZI1J3l0W/view?usp=sharing](https://drive.google.com/file/d/1jkXgeOVlX5MghkZlAZ8JZ3zHZI1J3l0W/view?usp=sharing)" alt="Preview do Projeto" width="100%">
+  <img src="./public/preview.png" alt="Preview do Projeto" width="100%">
 </div>
 
 ---
