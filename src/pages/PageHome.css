@@ -1,15 +1,38 @@
-.page-home{
+.page-home {
     width: 100vw;
     min-height: 100vh;
     color: white;
 }
-.page-home>.home-carrossel{
+
+.page-home>.home-carrossel {
     margin-left: 50px;
     display: flex;
+    position: relative;
+    z-index: 2;
+    margin-top: -100px;
     flex-direction: column;
     gap: 10px
 }
-.page-home>.home-top{
-    margin-left: 35px;
-    margin-right: 50px;
+
+.page-home>.home-top {
+    padding-left: 35px;
+    padding-right: 50px;
+    position: relative;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.777);
 }
+
+.page-home>.home-mid {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: -84px ;
+    position: relative;
+    z-index: 1;
+    padding-left: 50px;
+    padding-bottom: 175px;
+    min-height: 100vh;
+    background-image: url('../assets/dancando-no-escuro.webp');
+    background-size: cover;
+}
+

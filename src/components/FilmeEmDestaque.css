@@ -115,8 +115,8 @@
 .filme-em-destaque>.classificacao>.capsula>.boxIdade {
 
     display: flex;
-    padding: 2px 40px 2px 12px;
-    border-left: solid 2px white;
+    padding: 2px 70px 2px 12px;
+    border-left: solid 3px white;
 
     background-color: rgb(90, 75, 55);
 
