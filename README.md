@@ -105,8 +105,8 @@ Este projeto utiliza a API do TMDB. A chave de API está configurada no arquivo 
 ## 👥 Autores
 
 Desenvolvido por:
+* **Carolina Menezes**
 * **Carlos Andemberg**
-
 ---
 
 <div align="center">
