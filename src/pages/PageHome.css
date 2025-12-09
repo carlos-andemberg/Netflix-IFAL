@@ -32,7 +32,7 @@
     padding-left: 50px;
     padding-bottom: 175px;
     min-height: 100vh;
-    background-image: url('../assets/dancando-no-escuro.webp');
+    background-image:linear-gradient(rgba(0, 0, 0, 0.364), rgba(0, 0, 0, 0.364)), url('../assets/dancando-no-escuro.webp');
     background-size: cover;
 }
 
