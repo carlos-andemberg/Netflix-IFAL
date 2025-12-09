@@ -12,10 +12,92 @@
 }
 
 .atalhos>.atalhos-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     border-radius: 8px;
     padding-top: 20px;
     width: 88%;
     border: solid rgb(223, 215, 215) 1px;
     background-color: white;
     color: black;
+}
+
+.atalhos>.atalhos-box .icone-gerenciar {
+    color: rgb(95, 91, 91);
+    font-size: 28px;
+}
+
+.atalhos>.atalhos-box>.atalho-plano {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.atalhos>.atalhos-box .title {
+    font-weight: bold;
+}
+
+.atalhos>.atalhos-box {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding: 25px;
+}
+
+.atalhos>.atalhos-box .icons-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.atalhos>.atalhos-box .icons-div>.icons{
+    color: rgb(95, 91, 91);
+    font-size: 28px;
+}
+
+.atalhos>.atalhos-box>.atalho-comum {
+    border-top: solid 1px rgb(223, 215, 215);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.atalhos>.atalhos-box>.atalho-sub {
+    border-top: solid 1px rgb(223, 215, 215);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.atalhos>.atalhos-box>.atalho-sub>.icons-div>.sub-title {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.atalhos>.atalhos-box .subtitle {
+    color: rgb(95, 91, 91);
+    font-size: 12px;
+}
+
+.atalhos>.atalhos-box>.atalho-sub>.new-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.atalhos>.atalhos-box>.atalho-sub>.new-div>.new {
+    padding: 2px 7px;
+    background-color: rgb(127, 200, 255);
+    border-radius: 5px;
 }

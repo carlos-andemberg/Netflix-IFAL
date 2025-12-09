@@ -47,8 +47,7 @@
 
 .menu-item>.item-inferior>.item>.item-icons,
 .menu-item>.item-superior>.item-top>.item-icons {
-    width: 24px;
-    height: 24px;
+    font-size: 28px;
 }
 
 .menu-item>.item-superior>.item-top>.item-icons.top,
