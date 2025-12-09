@@ -3,6 +3,7 @@ import BarraDeNavegacao from '../components/BarraDeNavegacao.jsx';
 import { useEffect, useState } from 'react';
 import CarrosselSimples from '../components/CarrosselSimples.jsx';
 import CarrosselNumerado from '../components/CarrosselNumerado.jsx';
+import FilmeEmDestaque from '../components/FilmeEmDestaque.jsx';
 
 function PageHome() {
 
@@ -33,7 +34,6 @@ function PageHome() {
     }, [url]);
 
     let urlBase = 'https://image.tmdb.org/t/p/w500';
-    let urlBaseDestaque = 'https://image.tmdb.org/t/p/original';
     let urlFull = imageHorizontal.map(aux => (urlBase + aux));
     let urlFullV = imageVertical.map(aux => (urlBase + aux));
 
@@ -43,7 +43,7 @@ function PageHome() {
                 <BarraDeNavegacao links={lista} />
             </div>
             <div className='home-mid'>
-
+                <FilmeEmDestaque />
             </div>
             <div className='home-carrossel'>
                 <CarrosselSimples titulo='Top 10' listaDePosteres={urlFull.slice(0, 5)} />

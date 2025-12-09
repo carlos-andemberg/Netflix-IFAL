@@ -1,0 +1,164 @@
+.filme-em-destaque {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+    color: white;
+
+    /*border: solid 2px red;*/
+}
+
+.filme-em-destaque>.infoFilme>.topico-1>.logoNetflix>.logo {
+    height: 30px;
+    width: 20px;
+    margin: 0;
+}
+
+.filme-em-destaque>.infoFilme>.topico-1>.filme-nome {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.filme-em-destaque>.infoFilme>.topico-1>.filme-nome>.nomeFilme {
+    font-size: 50px;
+}
+
+.filme-em-destaque>.infoFilme>.topico-1>.filme-nome>.parteNome {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 5px;
+    padding-left: 28px;
+
+}
+
+.filme-em-destaque>.infoFilme>.topico-1>.filme-nome>.parteNome>.nomeFilme1 {
+    font-size: 30px;
+}
+
+.filme-em-destaque>.infoFilme>.topico-1>.filme-nome>.parteNome>.nomeFilme2 {
+    font-size: 50px;
+}
+
+.filme-em-destaque>.infoFilme {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.filme-em-destaque>.infoFilme>.topico-1 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.filme-em-destaque>.infoFilme>.topico-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.filme-em-destaque>.infoFilme>.topico-1>.logoNetflix {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.filme-em-destaque>.infoFilme>.topico-1>.logoNetflix>.filme {
+
+    font-size: 10px;
+    padding-top: 9px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+
+
+.filme-em-destaque>.infoFilme>.topico-2 .nomeInfo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.filme-em-destaque>.classificacao {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 8px;
+}
+
+.filme-em-destaque>.classificacao>.capsula>.p-speaker {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+    border: solid 1px white;
+    border-radius: 50%;
+}
+
+.filme-em-destaque>.classificacao>.capsula>.p-speaker>.speaker {
+    font-size: 24px;
+}
+
+.filme-em-destaque>.classificacao>.capsula {
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+
+}
+
+.filme-em-destaque>.classificacao>.capsula>.boxIdade {
+
+    display: flex;
+    padding: 2px 40px 2px 12px;
+    border-left: solid 2px white;
+
+    background-color: rgb(90, 75, 55);
+
+
+}
+
+.filme-em-destaque>.classificacao>.capsula>.boxIdade>.idade {
+    background-color: rgb(248, 237, 80);
+    padding: 3px;
+    border-radius: 10%;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: black;
+}
+
+.filme-em-destaque>.infoFilme>.topico-2>.maisInfo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 20px;
+    border-radius: 5px;
+
+
+    background-color: rgb(121, 116, 116);
+    color: rgb(255, 255, 255);
+}
+
+.filme-em-destaque>.infoFilme>.topico-2>.play {
+    display: flex;
+    gap: 10px;
+    padding: 10px 22px;
+    border-radius: 5px;
+
+    background-color: white;
+    color: black;
+}
+
+.filme-em-destaque>.infoFilme>.topico-2>.play>.icone1 {
+    font-size: 23px;
+}
+
+.filme-em-destaque>.infoFilme>.topico-2>.maisInfo>.icone2 {
+    font-size: 35px;
+}
